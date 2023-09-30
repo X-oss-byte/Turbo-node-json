@@ -1,5 +1,4 @@
-name: Cleanup branch caches
-on:
+name: Clean branch caches
   pull_request:
     types: [opened, closed, reopened, synchronize]
   push:
